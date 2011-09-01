@@ -10,20 +10,22 @@ body {
 
 
 a, a:link, a:visited, a:active a:hover {
-	color:white;
 	text-decoration:none;
 }
 /************* header *************/
 .header, header {
 	width: 100%;
 	height:100px;
-	background-color: #117099;
-	color:white;
+	color: #769AFF;
 }
+.header img {margin: 15px 0 5px;}
 .header h1 {margin-bottom:5px;}
 .header p {
 	font-size: 14px;
 	margin: 0px;
+}
+.header a {
+	color: #769AFF;
 }
 
 .nav ul {
@@ -47,26 +49,26 @@ a, a:link, a:visited, a:active a:hover {
 /*********** main *************/
 
 .teaser {
-	margin-top:1px;
+	margin-top: 1px;
 	width: 100%;
-	background-color: #117099;
+	background-color: #769AFF;
 	color: white;
 	padding:46px 0 46px 0;
 }
 .teaser_button {
-	text-align:center;
-	line-height:53px;
-	vertical-align:middle;
-	display:block;
-	width:300px;
-	height:55px;
+	text-align: center;
+	line-height: 45px;
+	vertical-align: middle;
+	display: block;
+	width: 300px;
+	height: 55px;
 	background: url('../img/teaser_button_2.png') no-repeat;
 	
 }
 .placeholder_1 {/* wird entfernt, wenn Kontent vorhanden */
-	height:290px;
-	width:540px;
-	background-color:silver;
+	height: 290px;
+	width: 540px;
+	background-color: silver;
 }
 
 /************* footer *************/
@@ -75,32 +77,36 @@ a, a:link, a:visited, a:active a:hover {
 /** inline Lösung noch etwas unschön **/
 .footer, footer {
 	width: 100%;
-	background-color: #117099;
-	text-align:center;
+	color: white;
+	background-color: #769AFF;
+	text-align: center;
+}
+
+.footer p {
+	font-size: 0.8em;
 }
 
 .footer * {
 	margin-top: 20px;
 }
 .footer ul {
-	list-style:none;
-	padding:20px 0 0 0;;
-	display:inline;
+	list-style: none;
+	padding: 20px 0 0 0;;
+	display: inline;
 }
 
 .footer ul li {
-	display:inline;
+	display: inline;
 }
 
 .footer li + li a {
-	display:block;
-	display:inline;
-	margin:20px 0px 0px 20px;
+	display: block;
+	display: inline;
+	margin: 20px 0px 0px 20px;
 }
 /********* other ***********/
 .floatLeft {float:left;}
 .floatRight{float:right;}
-
 
 /* Contain floats: h5bp.com/q */
 .clearfix:before, .clearfix:after { content: ""; display: table; }
