@@ -6,11 +6,6 @@ a, a:link, a:visited, a:active a:hover {
 .floatLeft {float:left;}
 .floatRight{float:right;}
 
-/* Contain floats: h5bp.com/q */
-.clearfix:before, .clearfix:after { content: ""; display: table; }
-.clearfix:after { clear: both; }
-.clearfix { zoom: 1; }
-
 /************* header *************/
 .header, header {
 	width: 100%;
@@ -77,13 +72,30 @@ a.button:hover {
 	color: white;
 }
 
-
-.screenshot {/* wird entfernt, wenn Kontent vorhanden */
+.screenshot {
 	width: 540px;
 	height: 338px;
 	background: white url(../img/screenshot.png) no-repeat center;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
+}
+
+.box {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border: 1px solid #E8E8E8;
+	background-color: #F6F6F6;
+	padding: 8px;
+	margin: 10px 0 10px;
+	height: 180px;
+}
+
+.box h3 {
+	margin: 0 0 8px;
+}
+
+.box p {
+	margin: 0;
 }
 
 /************* footer *************/
@@ -98,6 +110,10 @@ a.button:hover {
 
 .footer p {
 	font-size: 0.8em;
+}
+
+.footer a {
+	color: white;
 }
 
 .footer * {
@@ -118,8 +134,4 @@ a.button:hover {
 	display: block;
 	display: inline;
 	margin: 20px 0px 0px 20px;
-}
-
-.footer a {
-	color: white;
 }
