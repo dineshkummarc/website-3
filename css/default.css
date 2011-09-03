@@ -7,26 +7,26 @@ a, a:link, a:visited, a:active a:hover {
 .floatRight{float:right;}
 
 /************* header *************/
-.header, header {
+header {
 	width: 100%;
 	height:100px;
 	color: white;
 	background-color: #769AFF;
 }
 
-.header img {margin: 23px 0 5px;}
-.header h1 {margin-bottom:5px;}
+header img {margin: 23px 0 5px;}
+header h1 {margin-bottom:5px;}
 
-.header p {
+header p {
 	font-size: 14px;
 	margin: 0px;
 }
 
-.header a {
+header a, a:link, a:visited, a:active a:hover {
 	color: white;
 }
 
-.nav ul {
+nav ul {
 	list-style:none;
 	margin:0px;
 	padding:0px;
@@ -34,11 +34,11 @@ a, a:link, a:visited, a:active a:hover {
 	vertical-align:middle;
 }
 
-.nav ul li {
+nav ul li {
 	float:left;
 }
 
-.nav li + li a {
+nav li + li a {
 	display:block;
 	
 	margin:0px 0px 0px 20px;
@@ -101,36 +101,37 @@ a.button:hover {
 /************* footer *************/
 /** Verbesserungsbedarf...**/
 /** inline Lösung noch etwas unschön **/
-.footer, footer {
+footer {
 	width: 100%;
 	color: white;
 	background-color: #769AFF;
 	text-align: center;
 }
 
-.footer p {
+footer details {
 	font-size: 0.8em;
+	margin: 20px;
 }
 
-.footer a {
+footer a {
 	color: white;
 }
 
-.footer * {
+footer * {
 	margin-top: 20px;
 }
 
-.footer ul {
+footer ul {
 	list-style: none;
 	padding: 20px 0 0 0;;
 	display: inline;
 }
 
-.footer ul li {
+footer ul li {
 	display: inline;
 }
 
-.footer li + li a {
+footer li + li a {
 	display: block;
 	display: inline;
 	margin: 20px 0px 0px 20px;

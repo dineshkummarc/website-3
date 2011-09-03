@@ -15,25 +15,8 @@
 </head>
 
 <body>
-<div class="header">	
-	<div class="container_12">
-		<div class="grid_4">
-			<img style="width: 340px" src="img/logo_white.png" alt="volkszaehler.org" />
-			<p>DER SMART METER F&Uuml;R JEDEN</p>
-		</div>
-		<div class="nav grid_8">
-			<ul class="floatRight">
-				<li><a href="#">Startseite</a></li>
-				<li><a href="#">Features</a></li>
-				<li><a href="http://wiki.volkszaehler.org">Wiki</a></li>
-				<li><a href="#">Team</a></li>
-				<li><a href="#">Kontakt</a></li>
-			</ul>
-		</div>
-	</div>
-</div>
 
-<!-- snip -->
+<?php @include('header.html'); ?>
 
 <div class="teaser">
 	<div class="container_12">
@@ -50,9 +33,9 @@
 <div class="container_12">
 	<div class="grid_12">
 		<h2>Allgemeine Informationen</h2>
-		<p>Seit dem 1.1.2010 müssen Stromversorger ihren Kunden für Neubauten so genannte "intelligente Stromzähler" (Smart Meter) anbieten. Der Kunde soll dadurch seinen Stromverbrauch analysieren und optimieren können. <br />
-
-		Die dabei anfallenden Daten ("Stromverbrauchsprofil") erlauben einen sehr detallierten Einblick in den Tagesablauf des Nutzers (wann steht er auf? wann geht er in's Bett? wann kocht er? wie oft verwendet er seine Spülmaschine? verändert sich sein Verhalten? ...). Darum sollten die Daten ausschließlich für den Nutzer selbst zur Verfügung stehen - und das geht nur, wenn man sich den Smart Meter selbst baut. Mit einem Materialeinsatz von ca. EUR 100, etwas Geschick und Zeit lässt sich das mit Hilfe eines Standard-µC-Moduls aufbauen.</p>
+		<p>Seit dem 1.1.2010 müssen Stromversorger ihren Kunden für Neubauten so genannte "intelligente Stromzähler" (Smart Meter) anbieten. Der Kunde soll dadurch seinen Stromverbrauch analysieren und optimieren können.</p>
+		<p>Die dabei anfallenden Daten ("Stromverbrauchsprofil") erlauben einen sehr detallierten Einblick in den Tagesablauf des Nutzers (wann steht er auf? wann geht er in's Bett? wann kocht er? wie oft verwendet er seine Spülmaschine? verändert sich sein Verhalten? ...).</p>
+		<p>Darum sollten die Daten ausschließlich für den Nutzer selbst zur Verfügung stehen - und das geht nur, wenn man sich den Smart Meter selbst baut. Mit einem Materialeinsatz von ca. EUR 100, etwas Geschick und Zeit lässt sich das mit Hilfe eines Standard-µC-Moduls aufbauen.</p>
 	</div>
 </div>
 <div class="container_12">
@@ -87,22 +70,7 @@
 	</div></div>
 </div>
 
-<!-- snip -->
+<?php @include('footer.html'); ?>
 
-<div class="footer">
-	<div class="container_12">
-		<div class="meta_nav grid_12">
-			<ul>
-				<li><a href="#">Startseite</a></li>
-				<li><a href="#">Features</a></li>
-				<li><a href="#">Wiki</a></li>
-				<li><a href="#">Team</a></li>
-				<li><a href="#">Kontakt</a></li>
-				<li><a href="#">Impressum</a></li>
-			</ul>
-			<p>&copy; 2011 - volkszaehler.org - the open smartmeter platform</p>
-		</div>
-	</div>
-</div>
 </body>
 </html>
