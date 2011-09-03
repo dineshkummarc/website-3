@@ -23,10 +23,12 @@
 		<div class="grid_4">
 			<h2>Stromverbrauch im &Uuml;berblick</h2>
 			<p>volkszaehler.org ist ein freier Smart Meter (hier: intelligenter Stromzähler) im Selbstbau. Die anfallenden Stromprofile bleiben dabei unter der Kontrolle des Nutzers.</p>
-			<a href="https://demo.volkszaehler.org/frontend/?uuid=6836dd20-00d5-11e0-bab1-856ed5f959ae" class="button">Jetzt ausprobieren!</a>
+			<a href="https://demo.volkszaehler.org/frontend/?uuid=6836dd20-00d5-11e0-bab1-856ed5f959ae" class="teaser_button">Jetzt ausprobieren!</a>
 		</div>
 		<div class="grid_8">
-			<div class="screenshot floatRight"></div>
+			<div class="screenshot floatRight">
+				<img src="images/screenshot.png" alt="screenshot" />
+			</div>
 		</div>
 	</div>
 </div>

@@ -1,86 +1,95 @@
 /************* general *************/
-a, a:link, a:visited, a:active a:hover {
-	text-decoration:none;
-}
-
 .floatLeft {float:left;}
 .floatRight{float:right;}
+
+nav a {
+	text-decoration: none;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+	line-height: 80px;
+}
+
+nav li + li a {
+	display: block;
+	margin: 0 0px 0 20px;
+}
 
 /************* header *************/
 header {
 	width: 100%;
 	height:100px;
 	color: white;
-	background-color: #769AFF;
+	background-color: #0AA2ED;
 }
 
-header img {margin: 23px 0 5px;}
-header h1 {margin-bottom:5px;}
+header img.logo {
+	width: 340px;
+	margin: 23px 0 5px;
+}
 
 header p {
 	font-size: 14px;
-	margin: 0px;
+	margin: 0;
 }
 
-header a, a:link, a:visited, a:active a:hover {
+header a,
+header a:hover,
+header a:active,
+header a:focus,
+header a:visited {
 	color: white;
 }
 
-nav ul {
-	list-style:none;
-	margin:0px;
-	padding:0px;
-	line-height:100px;
-	vertical-align:middle;
+header nav ul li {
+	float: left;
 }
 
-nav ul li {
-	float:left;
-}
-
-nav li + li a {
-	display:block;
-	
-	margin:0px 0px 0px 20px;
-}
-
-/*********** main *************/
-.teaser {
+/*********** teaser *************/
+div.teaser {
 	margin-top: 1px;
 	width: 100%;
-	background-color: #769AFF;
+	background-color: #0AA2ED;
 	color: white;
 	padding:46px 0 46px 0;
 }
 
-.button {
+div.teaser a,
+div.teaser a:hover,
+div.teaser a:active,
+div.teaser a:focus,
+div.teaser a:visited {
+	color: white;
+}
+
+div.teaser_button {
 	text-align: center;
 	vertical-align: middle;
 	line-height: 45px;
 	display: block;
 	width: 300px;
 	height: 55px;
-	background: url('../img/teaser_button_2.png') no-repeat;
+	background: url('../images/teaser_button_2.png') no-repeat;
 	
 }
 
-a.button,
-a.button:link,
-a.button:visited,
-a.button:active,
-a.button:hover {
-	color: white;
-}
-
-.screenshot {
+div.teaser div.screenshot {
 	width: 540px;
 	height: 338px;
-	background: white url(../img/screenshot.png) no-repeat center;
+	background-color: white;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 }
 
-.box {
+div.screenshot img {
+	margin: 5px;
+}
+
+div.box {
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border: 1px solid #E8E8E8;
@@ -90,11 +99,11 @@ a.button:hover {
 	height: 180px;
 }
 
-.box h3 {
+div.box h3 {
 	margin: 0 0 8px;
 }
 
-.box p {
+div.box p {
 	margin: 0;
 }
 
@@ -104,35 +113,32 @@ a.button:hover {
 footer {
 	width: 100%;
 	color: white;
-	background-color: #769AFF;
+	background-color: #0AA2ED;
 	text-align: center;
 }
 
-footer details {
-	font-size: 0.8em;
-	margin: 20px;
-}
-
-footer a {
+footer a,
+footer a:hover,
+footer a:active,
+footer a:focus,
+footer a:visited {
 	color: white;
 }
 
-footer * {
-	margin-top: 20px;
+footer div.details {
+	font-size: 0.8em;
+	margin: 12px;
 }
 
-footer ul {
-	list-style: none;
-	padding: 20px 0 0 0;;
+footer nav.meta ul {
+	line-height: 40px;
+}
+
+footer nav.meta ul li {
 	display: inline;
 }
 
-footer ul li {
-	display: inline;
-}
-
-footer li + li a {
+footer nav.meta li + li a {
 	display: block;
 	display: inline;
-	margin: 20px 0px 0px 20px;
 }
