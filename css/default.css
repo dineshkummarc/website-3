@@ -1,31 +1,34 @@
-/****************************
-blue: #117099
-
-
-******************************/
-
-body {
-	
-}
-
-
+/************* general *************/
 a, a:link, a:visited, a:active a:hover {
 	text-decoration:none;
 }
+
+.floatLeft {float:left;}
+.floatRight{float:right;}
+
+/* Contain floats: h5bp.com/q */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
 /************* header *************/
 .header, header {
 	width: 100%;
 	height:100px;
-	color: #769AFF;
+	color: white;
+	background-color: #769AFF;
 }
-.header img {margin: 15px 0 5px;}
+
+.header img {margin: 23px 0 5px;}
 .header h1 {margin-bottom:5px;}
+
 .header p {
 	font-size: 14px;
 	margin: 0px;
 }
+
 .header a {
-	color: #769AFF;
+	color: white;
 }
 
 .nav ul {
@@ -47,7 +50,6 @@ a, a:link, a:visited, a:active a:hover {
 }
 
 /*********** main *************/
-
 .teaser {
 	margin-top: 1px;
 	width: 100%;
@@ -55,24 +57,36 @@ a, a:link, a:visited, a:active a:hover {
 	color: white;
 	padding:46px 0 46px 0;
 }
-.teaser_button {
+
+.button {
 	text-align: center;
-	line-height: 45px;
 	vertical-align: middle;
+	line-height: 45px;
 	display: block;
 	width: 300px;
 	height: 55px;
 	background: url('../img/teaser_button_2.png') no-repeat;
 	
 }
-.placeholder_1 {/* wird entfernt, wenn Kontent vorhanden */
-	height: 290px;
+
+a.button,
+a.button:link,
+a.button:visited,
+a.button:active,
+a.button:hover {
+	color: white;
+}
+
+
+.screenshot {/* wird entfernt, wenn Kontent vorhanden */
 	width: 540px;
-	background-color: silver;
+	height: 338px;
+	background: white url(../img/screenshot.png) no-repeat center;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 
 /************* footer *************/
-
 /** Verbesserungsbedarf...**/
 /** inline Lösung noch etwas unschön **/
 .footer, footer {
@@ -89,6 +103,7 @@ a, a:link, a:visited, a:active a:hover {
 .footer * {
 	margin-top: 20px;
 }
+
 .footer ul {
 	list-style: none;
 	padding: 20px 0 0 0;;
@@ -104,11 +119,7 @@ a, a:link, a:visited, a:active a:hover {
 	display: inline;
 	margin: 20px 0px 0px 20px;
 }
-/********* other ***********/
-.floatLeft {float:left;}
-.floatRight{float:right;}
 
-/* Contain floats: h5bp.com/q */
-.clearfix:before, .clearfix:after { content: ""; display: table; }
-.clearfix:after { clear: both; }
-.clearfix { zoom: 1; }
+.footer a {
+	color: white;
+}
