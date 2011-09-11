@@ -39,7 +39,6 @@ if (!defined('DOKU_INC')) die();
 
 <div class="dokuwiki">
   <div class="stylehead">
-
     <div class="bar" id="bar__top">
      <div class="container_12">
       <div class="bar-left grid_8" id="bar__topleft">
@@ -58,10 +57,8 @@ if (!defined('DOKU_INC')) die();
       </div>
 
       <div class="bar-right grid_4" id="bar__topright">
-        <?php tpl_searchform()?>&nbsp;
+        <?php tpl_searchform()?>
       </div>
-
-      <div class="clearer"></div>
      </div>
     </div>
   </div>
@@ -75,7 +72,16 @@ if (!defined('DOKU_INC')) die();
    </div>
   </div>
 
-  <div class="clearer"></div>
+  <div class="container_12">
+    <div class="meta">
+      <div class="user">
+        <?php tpl_userinfo()?>
+      </div>
+      <div class="doc">
+        <?php tpl_pageinfo()?>
+      </div>
+    </div>
+  </div>
 
   <?php tpl_flush()?>
 
@@ -87,6 +93,11 @@ if (!defined('DOKU_INC')) die();
         <?php tpl_button('admin')?>
         <?php tpl_button('profile')?>
         <?php tpl_button('subscribe')?>
+
+       <?php
+//         $loadskinHelper = plugin_load('action', 'loadskin')->loadHelper('loadskin', true);
+//         echo $loadskinHelper->showTemplateSwitcher();
+       ?>
       </div>
       <div class="bar-right" id="bar__bottomright">
         <?php tpl_button('edit')?>
@@ -94,27 +105,13 @@ if (!defined('DOKU_INC')) die();
         <?php tpl_button('recent')?>
         <?php tpl_button('index')?>
         <?php tpl_button('revert')?>
-        
-        &nbsp;
       </div>
-      <div class="clearer"></div>
      </div>
     </div>
   </div>
 </div>
 
 <?php include(dirname(__FILE__).'/footer.html')?>
-
-<div class="container_12">
-  <div class="meta">
-    <div class="user">
-      <?php tpl_userinfo()?>
-    </div>
-    <div class="doc">
-      <?php tpl_pageinfo()?>
-    </div>
-  </div>
-</div>
 
 <div class="no"><?php /* provide DokuWiki housekeeping, required in all templates */ tpl_indexerWebBug()?></div>
 </body>
