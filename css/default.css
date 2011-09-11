@@ -1,6 +1,10 @@
 /************* general *************/
-.floatLeft {float:left;}
-.floatRight{float:right;}
+.floatLeft { float:left; }
+.floatRight{ float:right; }
+
+nav * {
+	display: inline;
+}
 
 nav a {
 	text-decoration: none;
@@ -14,14 +18,13 @@ nav ul {
 }
 
 nav li + li a {
-	display: block;
 	margin: 0 0px 0 20px;
 }
 
 /************* header *************/
 header {
 	width: 100%;
-	height:100px;
+	height: 100px;
 	color: white;
 	background-color: #0AA2ED;
 }
@@ -111,18 +114,21 @@ div.box p {
 }
 
 /************* footer *************/
-/** Verbesserungsbedarf...**/
-/** inline Lösung noch etwas unschön **/
 footer {
 	width: 100%;
 	color: white;
 	background-color: #0AA2ED;
 	text-align: center;
+	margin-bottom: 18px;
 }
 
-footer nav,
+footer > div {
+	padding: 15px;
+}
+
 footer div.details {
 	margin-top: 15px;
+	font-size: 0.7em;
 }
 
 footer a,
@@ -131,18 +137,4 @@ footer a:active,
 footer a:focus,
 footer a:visited {
 	color: white;
-}
-
-footer nav.meta ul li {
-	display: inline;
-	font-size: 0.8em;
-}
-
-footer nav.meta li + li a {
-	display: block;
-	display: inline;
-}
-
-footer div.details {
-	font-size: 0.7em;
 }

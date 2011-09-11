@@ -491,7 +491,7 @@ div.dokuwiki pre.code {
 
 /* code blocks by file tag */
 div.dokuwiki pre.file {
-  background-color: __background_alt__;
+  background-color: __background_other__;
 }
 
 /* filenames for file and code blocks */
@@ -536,6 +536,7 @@ div.dokuwiki table.inline th {
   padding: 3px;
   border: 1px solid __border__;
   background-color: __background_alt__;
+  color: white;
 }
 
 div.dokuwiki table.inline td {
@@ -549,7 +550,7 @@ div.dokuwiki div.toc {
   margin: 1.2em 0 0 2em;
   float: right;
   width: 200px;
-  font-size: 80%;
+  font-size: 0.8em;
   clear: both;
 }
 
@@ -624,6 +625,7 @@ div.dokuwiki a.toc:active {
 /* ---------------------------- Diff rendering --------------------------*/
 div.dokuwiki table.diff {
   background-color: __background__;
+  color: white;
   width: 100%;
 }
 div.dokuwiki td.diff-blockheader {
@@ -676,6 +678,7 @@ div.dokuwiki div.footnotes {
   clear: both;
   border-top: 1px solid __border__;
   padding-left: 1em;
+  padding-top: 0.6em;
   margin-top: 1em;
 }
 
@@ -772,11 +775,11 @@ div.footerinc {
 
 div.dokuwiki div.ajax_qsearch {
   position: absolute;
-  right: 237px;;
-  width: 200px;
+  width: 227px;
+  margin-left: 62px;
   opacity: 0.9;
   display: none;
-  font-size: 80%;
+  font-size: 0.9em;
   line-height: 1.2em;
   border: 1px solid __border__;
   background-color: __background_other__;
@@ -862,7 +865,6 @@ div.dokuwiki div.breadcrumbs a {
 #bar__bottom {
   border-top: 1px solid __border__;
   border-bottom: 1px solid white;
-  margin-top: 10px;
 }
 
 div.dokuwiki .bar-left {
@@ -878,9 +880,9 @@ div.dokuwiki .bar-right {
 
 div.meta {
   clear: both;
-  margin: 15px 0.3em 0.3em;
-  color: white;
-  font-size: 60%;
+  margin: 15px 0 0.3em;
+  font-size: 70%;
+  color: __text_alt__;
 }
 
 div.meta div.user {
