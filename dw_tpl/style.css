@@ -5,9 +5,14 @@
  * @author Anika Henke <anika@selfthinker.org>
  */
 
-/* -------------- general elements --------------- */
+/* fixed footer */
+div.wrapper {
+	margin: 0 0 -153px;
+}
 
-* { padding: 0; margin: 0; }
+div.push {
+	height: 152px;
+}
 
 div.dokuwiki {
   font-size: 80%;
