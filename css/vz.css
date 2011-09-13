@@ -117,10 +117,13 @@ div.screenshot img {
 div.row1 > div,
 div.row2 > div {
 	margin: 10px;
+	margin-bottom: 10px;
 }
 
 div.row1 div.box { min-height: 150px; }
-div.row2 div.box { min-height: 320px; }
+div.row2 div.box {
+	min-height: 320px;
+	}
 
 div.box {
 	-moz-border-radius: 3px;
@@ -180,7 +183,6 @@ footer {
 	color: white;
 	background-color: #0AA2ED;
 	text-align: center;
-	margin-top: 10px;
 }
 
 footer > div {
