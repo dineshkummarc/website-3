@@ -18,8 +18,8 @@ if (!defined('DOKU_INC')) die();
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>
+		<?php echo strip_tags($conf['title'])?> - wiki -
 		<?php tpl_pagetitle()?>
-		[<?php echo strip_tags($conf['title'])?>]
 	</title>
 	<?php tpl_metaheaders()?>
 	<link rel="shortcut icon" href="<?php echo tpl_getFavicon() ?>" />
