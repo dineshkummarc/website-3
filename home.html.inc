@@ -28,7 +28,9 @@
                 <h3>Anleitung</h3>
                 <p>Kurz und knapp, eine Schritt-für-Schritt Anleitung für jeden mit ein wenig handwerklichem Geschick.</p>
         </div></div>
-        <div class="grid_3"><div class="box">
+</div>
+<div class="container_12">        
+		<div class="grid_3"><div class="box">
                 <h3>Vortrag</h3>
                 <p>Auf der <a href="http://unfuck.eu/2011">UnFUCK '11</a> hat Justin seinen neuen Vortrag zum volkszaehler proäsentiert:</p>
 		<a href="/website/unfuck"><img style="margin-top: 8px" src="images/unfuck_thumb.png" alt="zum Vortrag" /></a>

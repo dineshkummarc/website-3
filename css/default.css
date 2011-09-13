@@ -46,8 +46,10 @@ header a,
 header a:hover,
 header a:active,
 header a:focus,
+header a:link,
 header a:visited {
 	color: white;
+	text-decoration: none;
 }
 
 header nav ul li {
@@ -115,6 +117,10 @@ div.screenshot img {
 	margin: 0;
 }
 
+.box h3 {
+	color: #0AA2ED;
+}
+
 /************ impress *************/
 div.impress {
 	padding: 15px;
@@ -144,6 +150,8 @@ footer a,
 footer a:hover,
 footer a:active,
 footer a:focus,
+footer a:link,
 footer a:visited {
 	color: white;
+	text-decoration: none;
 }
