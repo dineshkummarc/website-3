@@ -29,7 +29,7 @@
                 <p>Kurz und knapp, eine Schritt-für-Schritt Anleitung für jeden mit ein wenig handwerklichem Geschick.</p>
         </div></div>
 </div>
-<div class="container_12">        
+<div class="container_12 row2">
 		<div class="grid_3"><div class="box">
                 <h3>Vortrag</h3>
                 <p>Auf der <a href="http://unfuck.eu/2011">UnFUCK '11</a> hat Justin seinen neuen Vortrag zum volkszaehler proäsentiert:</p>
