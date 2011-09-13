@@ -21,7 +21,6 @@ a {
 	text-decoration: none;
 }
 
-
 /************ nav **************/
 nav * {
 	display: inline;
@@ -115,10 +114,12 @@ div.screenshot img {
 }
 
 div.row1 > div,
-div.row2 > div {
-	margin: 10px;
+div.row2 > div
+{ margin: 10px; }
+
+div.row2 {
 	margin-bottom: 10px;
-}
+}	
 
 div.row1 div.box { min-height: 150px; }
 div.row2 div.box {
