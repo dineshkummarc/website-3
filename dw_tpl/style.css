@@ -3,15 +3,16 @@
  *
  * @author Andreas Gohr <andi@splitbrain.org>
  * @author Anika Henke <anika@selfthinker.org>
+ * @author Steffen Vogel <info@steffenvogel.de>
  */
 
 /* fixed footer */
 div.wrapper {
-	margin: 0 0 -153px;
+	margin: 0 0 -133px;
 }
 
 div.push {
-	height: 152px;
+	height: 136px;
 }
 
 div.dokuwiki {

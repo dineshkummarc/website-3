@@ -33,14 +33,14 @@ if (!defined('DOKU_INC')) die();
 			<div class="stylehead">
 				<div class="bar" id="bar__top">
 					<div class="container_12">
-						<div class="bar-left grid_8" id="bar__topleft">
+						<div class="bar-left" id="bar__topleft">
 							<?php if($conf['youarehere']){?>
 								<div class="breadcrumbs">
 									<?php tpl_youarehere() ?>
 								</div>
 							<?php }?>
 						</div>
-						<div class="bar-right grid_4" id="bar__topright">
+						<div class="bar-right" id="bar__topright">
 							<?php tpl_searchform()?>
 						</div>
 					</div>
