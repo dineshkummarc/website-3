@@ -1,23 +1,23 @@
 <div class="container_12">
 
 <ul>
-	<li>100% Open-Source</li>
+	<li><span>100% Open-Source</span></li>
 	<ul>
-		<li>kostenlos</li>
-		<li>offene Protokolle</li>
-		<li>erweiterbar</li>
+		<li><span>kostenlos</span></li>
+		<li><span>offene Protokolle</span></li>
+		<li><span>erweiterbar</span></li>
 
 	</ul>
-	<li>minmale Anforderungen (LAMP-Stack)</li>
-	<li>flexibele Verwaltungsmöglichkeiten</li>
-	<li>Verbrauchs & Kostenprognose</li>
-	<li>verschiedenste Messgrößen</li>
+	<li><span>minmale Anforderungen (LAMP-Stack)</span></li>
+	<li><span>flexibele Verwaltungsmöglichkeiten</span></li>
+	<li><span>Verbrauchs & Kostenprognose</span></li>
+	<li><span>verschiedenste Messgrößen</span></li>
 	<ul>
-		<li>Strom</li>
-		<li>Wasser</li>
-		<li>Gas</li>
-		<li>Betriebsstunden</li>
-		<li>Temperatur</li>
+		<li><span>Strom</span></li>
+		<li><span>Wasser</span></li>
+		<li><span>Gas</span></li>
+		<li><span>Betriebsstunden</span></li>
+		<li><span>Temperatur</span></li>
 	</ul>
 </ul>
 
