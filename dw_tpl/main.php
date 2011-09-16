@@ -33,14 +33,14 @@ if (!defined('DOKU_INC')) die();
 			<div class="stylehead">
 				<div class="bar" id="bar__top">
 					<div class="container_12">
-						<div class="bar-left" id="bar__topleft">
+						<div class="grid_8 bar-left" id="bar__topleft">
 							<?php if($conf['youarehere']){?>
 								<div class="breadcrumbs">
 									<?php tpl_youarehere() ?>
 								</div>
 							<?php }?>
 						</div>
-						<div class="bar-right" id="bar__topright">
+						<div class="grid_4 bar-right" id="bar__topright">
 							<?php tpl_searchform()?>
 						</div>
 					</div>
@@ -50,7 +50,9 @@ if (!defined('DOKU_INC')) die();
 <?php tpl_flush()?>
 
 			<div class="page container_12">
-				<?php tpl_content()?>
+				<div class="grid_12">
+					<?php tpl_content()?>
+				</div>
 			</div>
 
 			<div class="push"></div>
@@ -59,7 +61,7 @@ if (!defined('DOKU_INC')) die();
 
 	<div class="dokuwiki">
 		<div class="container_12">
-			<div class="meta">
+			<div class="grid_12 meta">
 				<div class="user">
 					<?php tpl_userinfo()?>
 				</div>
@@ -74,13 +76,13 @@ if (!defined('DOKU_INC')) die();
 		<div class="stylefoot">
 			<div class="bar" id="bar__bottom">
 				<div class="container_12">
-					<div class="bar-left" id="bar__bottomleft">
+					<div class="grid_4 bar-left" id="bar__bottomleft">
 						<?php tpl_button('login')?>
 					        <?php tpl_button('admin')?>
 					        <?php tpl_button('profile')?>
 					        <?php tpl_button('subscribe')?>
 					</div>
-					<div class="bar-right" id="bar__bottomright">
+					<div class="grid_8 bar-right" id="bar__bottomright">
  					        <?php tpl_button('edit')?>
 					        <?php tpl_button('history')?>
 					        <?php tpl_button('recent')?>

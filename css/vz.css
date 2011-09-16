@@ -2,11 +2,6 @@
 .floatLeft { float:left; }
 .floatRight{ float:right; }
 
-.bottom {
-	position: absolute;
-	bottom: 0;
-}
-
 html, body {
 	height: 100%;
 }
@@ -106,9 +101,8 @@ div.teaser a:visited {
 }
 
 
-div.teaser a.teaser_button {
+div.teaser a.button {
 	text-align: center;
-	vertical-align: middle;
 	line-height: 45px;
 	display: block;
 	width: 298px; 
@@ -143,35 +137,39 @@ div.row2 > div { margin: 10px; }
 
 div.row2 { margin-bottom: 10px; }	
 
-div.row1 div.box { min-height: 160px; }
-div.row2 div.box { min-height: 360px; }
+div.row1 div.box { min-height: 170px; }
+div.row2 div.box { min-height: 310px; }
 
 div.box {
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
 	border: 1px solid #E1E1E1;
-	background-color: #f0f0f0;
+	background-color: #f3f3f3;
 	padding: 8px;
-	text-align: justify;
 	position: relative;
 }
 
-div.box h3 {
-	margin: 0 0 8px;
-	color: #0AA2ED;
+div.box .bottom {
+	position: absolute;
+	bottom: 0;
+	width: 200px;
 }
 
-div.box p { margin: 6px 0; }
+div.box h3 { color: #0AA2ED; }
+div.box > * { margin: 0 0 8px; }
 
 div.impress { padding: 25px 20px; }
+div.twitter #tweets { font-size: 80%; }
 
 p.licence {
 	text-align: center;
+	vertical-align: middle;
 	background-color: #D4D4D4;
 	padding: 2px 0;
 	margin: 8px 0 0;
 	width: 100%;
+	height: 19px;
 	font-size: 13px;
 	-moz-border-radius: 3px;
 	color: #585858;

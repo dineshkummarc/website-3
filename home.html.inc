@@ -2,8 +2,8 @@
         <div class="container_12">
                 <div class="grid_4">
 		<h2>Stromverbrauch im &Uuml;berblick</h2>
-			<p>volkszaehler.org ist ein freier Smart Meter im Selbstbau. Der Nutzer behält dabei die vollständige Kontrolle über die anfallenden anfallenden Stromprofile.</p>
-			<a href="https://demo.volkszaehler.org/frontend/?uuid=6836dd20-00d5-11e0-bab1-856ed5f959ae" class="teaser_button">Jetzt ausprobieren!</a>
+			<p>volkszaehler.org ist ein freier Smart Meter im Selbstbau.<br />Der Nutzer behält dabei die vollständige Kontrolle über die anfallenden anfallenden Stromprofile.</p>
+			<a href="https://demo.volkszaehler.org/frontend/?uuid=6836dd20-00d5-11e0-bab1-856ed5f959ae" class="button">Jetzt ausprobieren!</a>
 		</div>
 		<div class="grid_8">
 			<div class="screenshot floatRight">
@@ -19,20 +19,21 @@
                 <h3>Aktuelles</h3>
                 <p><strong>Wir suchen Helfer!</strong><br />
                 Die Arbeit an volkszaehler.org erfordert eine Menge Zeit. Wenn du denkst, du kannst etwas zu dem Projekt beitragen, sieh doch mal nach, was es noch zu tun gibt.</p>
+		<a class="bottom" href="http://wiki.volkszaehler.org/contribute"><u>mitmachen!</u></a>
         </div></div>
         <div class="grid_3"><div class="box">
                 <h3>Wiki</h3>
                 <p>Hier findest du alles, was es über volkszaehler.org zu wissen gibt. Anleitungen, Hintergrundwissen, etc.</p>
-		<p><strong><a href="http://wiki.volkszaehler.org">&rArr; zum Wiki</a></strong></p>
+		<a class="bottom" href="http://wiki.volkszaehler.org"><u>zum Wiki</u></a>
         </div></div>
         <div class="grid_3"><div class="box">
                 <h3>Anleitung</h3>
                 <p>Kurz und knapp, eine Schritt-für-Schritt Anleitung für jeden mit ein wenig handwerklichem Geschick.</p>
-		<p><strong><a href="http://wiki.volkszaehler.org/howto/getstarted">&rArr; zur Anleitung</a></strong></p>
+		<a class="bottom" href="http://wiki.volkszaehler.org/howto/getstarted"><u>zur Anleitung</u></a>
         </div></div>
 </div>
 <div class="container_12 row2">
-		<div class="grid_3"><div class="box">
+		<div class="grid_3"><div class="box video">
                 <h3>Vortrag</h3>
                 <p>Auf der <a href="http://unfuck.eu/2011">UnFUCK '11</a> hat Justin seinen neuen Vortrag zum volkszaehler präsentiert:</p>
 		<div class="bottom">
@@ -44,7 +45,7 @@
         </div></div>
         <div class="grid_3"><div class="box interview">
                 <h3>Interview</h3>
-                <p>Während des<br />elektro:camp(&laquo;2011:5&raquo;) entstand folgendes Interview mit Ingo Ebel von RadioTux. Justin gibt einen kurzen Überblick über Smartmetering und das Projekt.</p>
+                <p>Während des elektro:camp(&laquo;2011:5&raquo;) entstand folgendes Interview mit Ingo Ebel von RadioTux. Justin gibt einen kurzen Überblick über Smartmetering und das Projekt.</p>
 		<div class="bottom">
 			<p><audio controls="controls">
 				<source type="audio/mp3" src="http://archiv.radiotux.de/interviews/2011-05-28.RadioTux.Volkszaehler.mp3"></source>
@@ -59,7 +60,7 @@
 			</p>
 		</div>
         </div></div>
-        <div class="grid_6"><div class="box">
+        <div class="grid_6"><div class="box twitter">
                 <h3>Twitter</h3>
 		<div id="tweets"></div>
         </div></div>
@@ -69,7 +70,7 @@
 <script>
  $('#tweets').tweet({
         avatar_size: 16,
-        count: 6,
+        count: 5,
         query: 'from:volkszaehler OR @volkszaehler',
         loading_text: 'searching twitter...'
       });
