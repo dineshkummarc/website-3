@@ -17,7 +17,12 @@ div.push {
 	height: 78px;
 }
 
-a {
+a,
+a:hover,
+a:active,
+a:focus,
+a:visited {
+	color: black;
 	text-decoration: none;
 }
 
@@ -65,13 +70,16 @@ header p {
 }
 
 header a,
-header a:hover,
 header a:active,
 header a:focus,
 header a:link,
 header a:visited {
 	color: white;
 	text-decoration: none;
+}
+
+header a:hover {
+	text-decoration: underline;
 }
 
 header nav ul li {
@@ -177,6 +185,7 @@ p.licence {
 
 p.licence img { vertical-align: middle; }
 
+p.licence a,
 p.licence a:active,
 p.licence a:hover,
 p.licence a:visited,
