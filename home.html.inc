@@ -32,20 +32,20 @@
         </div></div>
 </div>
 <div class="container_12 row2">
-		<div class="grid_3"><div class="box" style="position: relative;">
+		<div class="grid_3"><div class="box">
                 <h3>Vortrag</h3>
                 <p>Auf der <a href="http://unfuck.eu/2011">UnFUCK '11</a> hat Justin seinen neuen Vortrag zum volkszaehler präsentiert:</p>
-		<div style="position: absolute; bottom: 0;">
+		<div class="bottom">
 			<a href="/website/unfuck"><img style="margin-top: 8px" src="images/unfuck_thumb.png" alt="zum Vortrag" /></a>
 			<p class="licence">
 				&copy; <a href="http://mediathek.hs-furtwangen.de">Hochschule Furtwangen</a>
 			</p>
 		</div>
         </div></div>
-        <div class="grid_3"><div class="box interview" style="position: relative;">
+        <div class="grid_3"><div class="box interview">
                 <h3>Interview</h3>
                 <p>Während des<br />elektro:camp(&laquo;2011:5&raquo;) entstand folgendes Interview mit Ingo Ebel von RadioTux. Justin gibt einen kurzen Überblick über Smartmetering und das Projekt.</p>
-		<div style="position: absolute; bottom: 0;">
+		<div class="bottom">
 			<p><audio controls="controls">
 				<source type="audio/mp3" src="http://archiv.radiotux.de/interviews/2011-05-28.RadioTux.Volkszaehler.mp3"></source>
 				<source type="audio/ogg" src="http://archiv.radiotux.de/interviews/2011-05-28.RadioTux.Volkszaehler.ogg"></source>

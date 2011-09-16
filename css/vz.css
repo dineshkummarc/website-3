@@ -2,6 +2,11 @@
 .floatLeft { float:left; }
 .floatRight{ float:right; }
 
+.bottom {
+	position: absolute;
+	bottom: 0;
+}
+
 html, body {
 	height: 100%;
 }
@@ -149,6 +154,7 @@ div.box {
 	background-color: #f0f0f0;
 	padding: 8px;
 	text-align: justify;
+	position: relative;
 }
 
 div.box h3 {
