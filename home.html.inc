@@ -14,19 +14,19 @@
                 </div>
 	</div>
 </div>
-<div class="container_12 row1">
+<div class="container_12 row1 sep-bot">
         <div class="grid_6 floatLeft"><div class="box">
                 <h3>Aktuelles</h3>
                 <p><strong>Wir suchen Helfer!</strong><br />
                 Die Arbeit an volkszaehler.org erfordert eine Menge Zeit. Wenn du denkst, du kannst etwas zu dem Projekt beitragen, sieh doch mal nach, was es noch zu tun gibt.</p>
 		<a class="bottom" href="http://wiki.volkszaehler.org/contribute"><u>mitmachen!</u></a>
         </div></div>
-        <div class="grid_3"><div class="box">
+        <div class="grid_3"><div class="box box-sep">
                 <h3><a href="http://wiki.volkszaehler.org">Wiki</a></h3>
                 <p>Hier findest du alles, was es über volkszaehler.org zu wissen gibt. Anleitungen, Hintergrundwissen, etc.</p>
 		<a class="bottom" href="http://wiki.volkszaehler.org"><u>zum Wiki</u></a>
         </div></div>
-        <div class="grid_3"><div class="box">
+        <div class="grid_3"><div class="box box-sep">
                 <h3><a href="http://wiki.volkszaehler.org/howto/getstarted">Anleitung</a></h3>
                 <p>Kurz und knapp, eine Schritt-für-Schritt Anleitung für jeden mit ein wenig handwerklichem Geschick.</p>
 		<a class="bottom" href="http://wiki.volkszaehler.org/howto/getstarted"><u>zur Anleitung</u></a>
@@ -43,7 +43,7 @@
 			</p>
 		</div>
         </div></div>
-        <div class="grid_3"><div class="box interview">
+        <div class="grid_3"><div class="box box-sep interview">
                 <h3>Interview</h3>
                 <p>Während des elektro:camp(&laquo;2011:5&raquo;) entstand folgendes Interview mit Ingo Ebel von RadioTux. Justin gibt einen kurzen Überblick über Smartmetering und das Projekt.</p>
 		<div class="bottom">
@@ -60,7 +60,7 @@
 			</p>
 		</div>
         </div></div>
-        <div class="grid_6"><div class="box twitter">
+        <div class="grid_6"><div class="box box-sep twitter">
                 <h3>Twitter</h3>
 		<div id="tweets"></div>
         </div></div>
