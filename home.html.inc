@@ -15,13 +15,7 @@
 	</div>
 </div>
 <div class="container_12 row1 sep-bot">
-        <div class="grid_6 floatLeft"><div class="box">
-                <h3>Aktuelles</h3>
-                <p><strong>Wir suchen Helfer!</strong><br />
-                Die Arbeit an volkszaehler.org erfordert eine Menge Zeit. Wenn du denkst, du kannst etwas zu dem Projekt beitragen, sieh doch mal nach, was es noch zu tun gibt.</p>
-		<a class="bottom" href="http://wiki.volkszaehler.org/contribute"><u>mitmachen!</u></a>
-        </div></div>
-        <div class="grid_3"><div class="box box-sep">
+        <div class="grid_3"><div class="box">
                 <h3><a href="http://wiki.volkszaehler.org">Wiki</a></h3>
                 <p>Hier findest du alles, was es über volkszaehler.org zu wissen gibt. Anleitungen, Hintergrundwissen, etc.</p>
 		<a class="bottom" href="http://wiki.volkszaehler.org"><u>zum Wiki</u></a>
@@ -31,6 +25,12 @@
                 <p>Kurz und knapp, eine Schritt-für-Schritt Anleitung für jeden mit ein wenig handwerklichem Geschick.</p>
 		<a class="bottom" href="http://wiki.volkszaehler.org/howto/getstarted"><u>zur Anleitung</u></a>
         </div></div>
+		 <div class="grid_6 floatLeft"><div class="box box-sep">
+	                <h3>Aktuelles</h3>
+	                <p><strong>Wir suchen Helfer!</strong><br />
+	                Die Arbeit an volkszaehler.org erfordert eine Menge Zeit. Wenn du denkst, du kannst etwas zu dem Projekt beitragen, sieh doch mal nach, was es noch zu tun gibt.</p>
+			<a class="bottom" href="http://wiki.volkszaehler.org/contribute"><u>mitmachen!</u></a>
+	        </div></div>
 </div>
 <div class="container_12 row2">
 		<div class="grid_3"><div class="box video">
