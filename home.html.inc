@@ -22,19 +22,19 @@
 		<a class="bottom" href="http://wiki.volkszaehler.org/contribute"><u>mitmachen!</u></a>
         </div></div>
         <div class="grid_3"><div class="box">
-                <h3>Wiki</h3>
+                <h3><a href="http://wiki.volkszaehler.org">Wiki</a></h3>
                 <p>Hier findest du alles, was es über volkszaehler.org zu wissen gibt. Anleitungen, Hintergrundwissen, etc.</p>
 		<a class="bottom" href="http://wiki.volkszaehler.org"><u>zum Wiki</u></a>
         </div></div>
         <div class="grid_3"><div class="box">
-                <h3>Anleitung</h3>
+                <h3><a href="http://wiki.volkszaehler.org/howto/getstarted">Anleitung</a></h3>
                 <p>Kurz und knapp, eine Schritt-für-Schritt Anleitung für jeden mit ein wenig handwerklichem Geschick.</p>
 		<a class="bottom" href="http://wiki.volkszaehler.org/howto/getstarted"><u>zur Anleitung</u></a>
         </div></div>
 </div>
 <div class="container_12 row2">
 		<div class="grid_3"><div class="box video">
-                <h3>Vortrag</h3>
+                <h3><a href="/website/unfuck">Vortrag</a></h3>
                 <p>Auf der <a href="http://unfuck.eu/2011">UnFUCK '11</a> hat Justin seinen neuen Vortrag zum volkszaehler präsentiert:</p>
 		<div class="bottom">
 			<a href="/website/unfuck"><img style="margin-top: 8px" src="images/unfuck_thumb.png" alt="zum Vortrag" /></a>
