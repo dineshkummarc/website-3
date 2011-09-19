@@ -108,6 +108,7 @@ div.teaser div.screenshot {
 	background-color: white;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
+	border-radius: 5px;
 }
 
 div.screenshot img {
@@ -128,6 +129,7 @@ div.row2 div.box {
 div.box {
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
+	border-radius: 5px;
 	border: 1px solid #E8E8E8;
 	background-color: #F6F6F6;
 	padding: 8px;
@@ -150,6 +152,8 @@ p.licence {
 	width: 100%;
 	font-size: 13px;
 	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
 	color: #585858;
 }
 
