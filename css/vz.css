@@ -153,6 +153,7 @@ div.teaser div.screenshot {
 	background-color: white;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
+	border-radius: 5px;
 }
 
 div.screenshot img { margin: 5px; }
@@ -209,6 +210,8 @@ p.licence {
 	height: 19px;
 	font-size: 13px;
 	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
 	color: #585858;
 }
 
