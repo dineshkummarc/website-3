@@ -13,6 +13,7 @@ html, body {
 	font-weight:lighter;
 	
 }
+
 p {
 	line-height: 125%;
 }
@@ -21,11 +22,11 @@ div.wrapper {
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
-	margin: 0 0 -78px;
+	margin: 0 0 -76px;
 }
 
 div.push {
-	height: 78px;
+	height: 75px;
 }
 
 a,
@@ -244,7 +245,7 @@ div.error > div {
 /************* footer *************/
 footer {
 	width: 100%;
-	height: 78px;
+	height: 75px;
 	color: #7d8189;
 	border-top:1px solid #c9dfe6;
 	background-color: #edfbff;

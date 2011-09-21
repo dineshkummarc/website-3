@@ -12,7 +12,7 @@ div.wrapper {
 }
 
 div.push {
-	height: 136px;
+	height: 130px;
 }
 
 div.dokuwiki {
@@ -426,7 +426,6 @@ div.dokuwiki ul {
   line-height: 1.5em;
   list-style-type: square;
   list-style-image: none;
-  margin: 0 0 1em 3.5em;
   color: __text_alt__;
 }
 
@@ -854,7 +853,6 @@ div.dokuwiki div.imagemeta img.thumb {
 
 /* ---------------  top and bottom bar ---------------- */
 div.dokuwiki .bar {
-  background: __background_alt__;
   padding: 0.1em;
   clear: both;
 }
@@ -864,11 +862,12 @@ div.dokuwiki div.breadcrumbs a {
 }
 
 #bar__top {
-  border-top: 1px solid white;
-  border-bottom: 1px solid __border__;
+  background: __background_alt__;
+  border-bottom: 1px solid #047A96;
 }
 
 #bar__bottom {
+  background: __background_neu__;
   border-top: 1px solid __border__;
   border-bottom: 1px solid white;
 }

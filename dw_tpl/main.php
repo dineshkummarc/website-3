@@ -54,9 +54,8 @@ if (!defined('DOKU_INC')) die();
 					<?php tpl_content()?>
 				</div>
 			</div>
-
-			<div class="push"></div>
 		</div><!-- dokuwiki -->
+		<div class="push"></div>
 	</div><!-- wrapper -->
 
 	<div class="dokuwiki">
