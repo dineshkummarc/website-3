@@ -35,7 +35,7 @@ a:active,
 a:focus,
 a:visited {
 	color: black;
-	text-decoration: none;
+	/*text-decoration: none;*/
 }
 
 h1,
@@ -117,16 +117,20 @@ div.teaser {
 	border-bottom: 1px solid #047A96;
 	width: 100%;
 	background-color: #0292C0;
-	color: white;
 	padding: 46px 0 46px 0;
 }
 
+div.teaser,
 div.teaser a,
 div.teaser a:hover,
 div.teaser a:active,
 div.teaser a:focus,
-div.teaser a:visited {
+div.teaser a:visited,
+div.teaser h1,
+div.teaser h2,
+div.teaser h3 {
 	color: white;
+	text-decoration: none;
 }
 
 
@@ -221,6 +225,7 @@ p.licence a:hover,
 p.licence a:visited,
 p.licence a:focus {
 	color: #585858;
+	text-decoration: none;
 }
 
 div.interview audio {
