@@ -1,5 +1,6 @@
 <div class="container_12">
 
+<h2>Features</h2>
 <ul>
 	<li><span>100% Open-Source</span></li>
 	<ul>
