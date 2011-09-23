@@ -60,12 +60,14 @@ if (!defined('DOKU_INC')) die();
 
 	<div class="dokuwiki">
 		<div class="container_12">
-			<div class="grid_12 meta">
-				<div class="user">
-					<?php tpl_userinfo()?>
-				</div>
-				<div class="doc">
-					<?php tpl_pageinfo()?>
+			<div class="grid_12">
+				<div class="meta">
+					<div class="user">
+						<?php tpl_userinfo()?>
+					</div>
+					<div class="doc">
+						<?php tpl_pageinfo()?>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -75,13 +77,13 @@ if (!defined('DOKU_INC')) die();
 		<div class="stylefoot">
 			<div class="bar" id="bar__bottom">
 				<div class="container_12">
-					<div class="grid_4 bar-left" id="bar__bottomleft">
+					<div class="grid_5 bar-left" id="bar__bottomleft">
 						<?php tpl_button('login')?>
 					        <?php tpl_button('admin')?>
 					        <?php tpl_button('profile')?>
 					        <?php tpl_button('subscribe')?>
 					</div>
-					<div class="grid_8 bar-right" id="bar__bottomright">
+					<div class="grid_7 bar-right" id="bar__bottomright">
  					        <?php tpl_button('edit')?>
 					        <?php tpl_button('history')?>
 					        <?php tpl_button('recent')?>
