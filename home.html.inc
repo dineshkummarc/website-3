@@ -2,7 +2,7 @@
         <div class="container_12">
                 <div class="grid_4">
 		<h2>Stromverbrauch im &Uuml;berblick</h2>
-			<p>volkszaehler.org ist ein freier Smart Meter im Selbstbau.<br />Der Nutzer behält dabei die vollständige Kontrolle über die anfallenden anfallenden Strom, Wasser & Gaskosten.</p>
+			<p>volkszaehler.org ist ein freier Smart Meter im Selbstbau.<br />Der Nutzer behält dabei die vollständige Kontrolle über die anfallenden Strom, Wasser & Gaskosten.</p>
 			<a href="https://demo.volkszaehler.org/frontend/?uuid=6836dd20-00d5-11e0-bab1-856ed5f959ae" class="button">Jetzt ausprobieren!</a>
 		</div>
 		<div class="grid_8">
@@ -37,7 +37,7 @@
                 <h3><a href="/website/unfuck">Vortrag</a></h3>
                 <p>Auf der <a href="http://unfuck.eu/2011">UnFUCK '11</a> hat Justin seinen neuen Vortrag zum volkszaehler präsentiert:</p>
 		<div class="bottom">
-			<a href="/website/unfuck"><img style="margin-top: 8px" src="images/unfuck_thumb.png" alt="zum Vortrag" /></a>
+			<a href="./unfuck"><img style="margin-top: 8px" src="images/unfuck_thumb.png" alt="zum Vortrag" /></a>
 			<p class="licence">
 				&copy; <a href="http://mediathek.hs-furtwangen.de">Hochschule Furtwangen</a>
 			</p>
@@ -72,6 +72,7 @@
         avatar_size: 16,
         count: 5,
         query: 'from:volkszaehler OR @volkszaehler',
+	username: 'volkszaehler',
         loading_text: 'searching twitter...'
       });
 </script>
