@@ -1,4 +1,4 @@
 <div class="container_12">
 	<h2>Impressum</h2>
-	<img src="images/imprint.png" alt="imprint" />
+	<img src="images/impressum.png" alt="impressum" />
 </div>
