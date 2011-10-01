@@ -45,7 +45,7 @@
         </div></div>
         <div class="grid_3"><div class="box box-sep interview">
                 <h3>Interview</h3>
-                <p>Während des elektro:camp(&laquo;2011:5&raquo;) entstand folgendes Interview mit Ingo Ebel von RadioTux. Justin gibt einen kurzen Überblick über Smartmetering und das Projekt.</p>
+                <p>Während des elektro:camp(&laquo;2011:5&raquo;) entstand folgendes Interview mit Ingo Ebel von RadioTux. Justin gibt einen kurzen Überblick über Smart Metering und das Projekt.</p>
 		<div class="bottom">
 			<p><audio controls="controls">
 				<source type="audio/mp3" src="http://archiv.radiotux.de/interviews/2011-05-28.RadioTux.Volkszaehler.mp3"></source>
