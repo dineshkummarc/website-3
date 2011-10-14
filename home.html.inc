@@ -34,7 +34,7 @@
 </div>
 <div class="container_12 row2">
 		<div class="grid_3"><div class="box video">
-                <h3><a href="/website/unfuck">Vortrag</a></h3>
+                <h3><a href="/unfuck">Vortrag</a></h3>
                 <p>Auf der <a href="http://unfuck.eu/2011">UnFUCK '11</a> hat Justin seinen neuen Vortrag zum volkszaehler präsentiert:</p>
 		<div class="bottom">
 			<a href="./unfuck"><img style="margin-top: 8px" src="images/unfuck_thumb.png" alt="zum Vortrag" /></a>
