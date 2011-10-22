@@ -27,9 +27,9 @@
         </div></div>
 		 <div class="grid_6 floatLeft"><div class="box box-sep">
 	                <h3>Aktuelles</h3>
-	                <p><strong>Wir suchen Helfer!</strong><br />
-	                Die Arbeit an volkszaehler.org erfordert eine Menge Zeit. Wenn du denkst, du kannst etwas zu dem Projekt beitragen, sieh doch mal nach, was es noch zu tun gibt.</p>
-			<a class="bottom" href="http://wiki.volkszaehler.org/contribute"><u>mitmachen!</u></a>
+	                <p><strong>Komm und triff uns auf dem <a href="http://elektro-camp.de/">elektro:camp(«2011.10»)</a>!</strong><br />
+	                Das 3. Elektro-Camp findet am 4./5.11.2011 am <a href="http://www.tno.nl/">TNO</a> in Groningen (NL) statt. Falls Du also schon immer mal nach ner Gelegenheit gesucht hast, Elektro-Nerds zu treffen, mit Ihnen gemeinsam zu frickeln und Dich mit Ihnen auszutauschen: das ist die Gelegenheit!</p>
+			<a class="bottom" href="http://developer.mysmartgrid.de/doku.php?id=ec1110-signup"><u>registrieren!</u></a>
 	        </div></div>
 </div>
 <div class="container_12 row2">
